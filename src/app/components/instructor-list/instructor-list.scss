@@ -1,0 +1,19 @@
+.actions {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.instructors-table {
+  width: 100%;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}

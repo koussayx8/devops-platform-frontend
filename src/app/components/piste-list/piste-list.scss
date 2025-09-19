@@ -1,0 +1,39 @@
+.actions {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.pistes-table {
+  width: 100%;
+}
+
+.no-data {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}
+
+.color-green {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.color-blue {
+  background-color: #2196f3 !important;
+  color: white !important;
+}
+
+.color-red {
+  background-color: #f44336 !important;
+  color: white !important;
+}
+
+.color-black {
+  background-color: #424242 !important;
+  color: white !important;
+}
