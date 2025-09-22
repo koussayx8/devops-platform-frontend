@@ -19,9 +19,6 @@ RUN npm run build
 # Production stage with Nginx
 FROM nginx:alpine
 
-# Copy custom nginx configuration
-COPY nginx.conf /etc/nginx/nginx.conf
-
 # Copy built application from build stage
 COPY --from=build /app/dist/devops-platform-frontend/browser /usr/share/nginx/html
 
