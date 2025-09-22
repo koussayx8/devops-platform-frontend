@@ -28,3 +28,7 @@ export class PisteService {
     return this.http.delete<void>(`${this.apiUrl}/delete/${id}`);
   }
 }
+
+
+
+

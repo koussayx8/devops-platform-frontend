@@ -32,3 +32,7 @@ export class InstructorService {
     return this.http.put<Instructor>(`${this.apiUrl}/addAndAssignToCourse/${courseId}`, instructor);
   }
 }
+
+
+
+
